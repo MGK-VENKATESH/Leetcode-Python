@@ -53,7 +53,7 @@ class Solution:
         # If the number of dashes doesn't match the current depth, return null
         if dash_count != depth:
             return None
-
+ 
         self.index += dash_count
 
         # Extract the node value
